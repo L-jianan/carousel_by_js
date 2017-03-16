@@ -68,6 +68,7 @@
 /*箭头容器*/
 #arr{
     display: none;
+    cursor: pointer;
 }
 #arrRight{
     right: 5px;
