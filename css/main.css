@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*大容器*/
+#container{
+    width: 500px;
+    height: 200px;
+    margin: 100px auto;
+    padding: 5px;
+    border: 1px solid #000;
+    position: relative;
+}
+/*显示容器*/
+#box{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+/*ul*/
+#carousel{
+    width: 5000px;
+    height: 200px;
+    position: absolute;
+}
+#carousel li{
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+/*ol*/
+#page-control{
+    width: 150px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+#page-control li{
+    width: 18px;
+    height: 18px;
+    margin: 0 5px;
+    border: 1px solid goldenrod;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+    background-color: #fff;
+    cursor:pointer;
+}
+/*箭头*/
+.arr{
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+/*箭头容器*/
+#arr{
+    display: none;
+}
+#arrRight{
+    right: 5px;
+}
+#arrLeft{
+    left: 0;
+}
+/*ol li 高亮样式*/
+#page-control .current{
+    background-color: gold;
+}
